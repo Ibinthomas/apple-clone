@@ -1,0 +1,172 @@
+body{
+  font-family:  Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding-left: 280px;
+  font-size: 12px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+li {
+  float: left;
+  
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(250, 250, 250);
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 0.622);
+}
+.logo{
+  position: absolute;
+  display: inline;
+  width: 15px;
+  height: 17px;
+}
+.main{
+display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  align-content: stretch;
+}
+img{
+width: 100%;
+height: auto;
+}
+
+.sub1{
+  top: 0px;
+  background-color: rgb(18, 193, 73);
+  width: 100%;
+  height: 775px;
+  position: relative;
+text-align: center;
+color: white;
+
+}
+.i15{
+top: 20px;
+  background-color: rgb(18, 193, 73);
+  width: 100%;
+  height: 130%;
+}
+.iphone15{
+position: relative;
+font-weight: bold;
+position: absolute;
+top: 8px;
+color: black;
+text-align: center;
+left: 34%;
+font-size: 70px;
+
+}
+
+/* sree 
+Grid Image inserting*/
+.grid{
+  display: flex;
+  background-color: white;
+  flex: 50%;
+}
+.iwatch{
+  position: relative;
+  font-weight: bold;
+  position: absolute;
+  top: 8px;
+  color: rgb(225, 225, 225);
+  text-align: center;
+  left: 42%;
+  font-size: 70px;
+  
+  }
+  /* Grid Image */
+.g1{
+  flex: 50%;
+  background-color: white;
+  padding: -3px;
+  height: auto;
+}
+.g2{
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+  height: auto;
+}
+.grid2{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+/* Scroll image */
+.scroll{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 600px;
+  display: flex;
+  overflow: auto;
+  transition-delay: 0.5s;
+}
+div.scroll {
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  height: 80%;
+  width: 100%;
+  
+}
+
+div.scroll img {
+  padding: 10px;
+  height: 97%;
+  width: 100%;
+}
+/* Footer */
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: rgb(249, 250, 252);
+}
+.footer div{
+  background-color: rgb(249, 250, 252);
+  color: rgb(128, 127, 127);
+  font-size: 14px;
+  font-family: sans-serif;
+  width: 1000px;
+  height: 100%;
+}
+.text{
+  position: absolute;
+  bottom: -750px;
+  left: 16px;
+  color: white;
+  font-size: 50px;
+  transform: translate(300%, 90%);
+}
