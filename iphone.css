@@ -11,7 +11,7 @@ ul {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  width: 100%;
+  width: 77%;
   padding-left: 280px;
   font-size: 12px;
   align-items: center;
@@ -86,12 +86,12 @@ font-size: 70px;
 
 }
 
-/* sree 
-Grid Image inserting*/
+
 .grid{
   display: flex;
   background-color: white;
   flex: 50%;
+  flex-direction: column;
 }
 .iwatch{
   position: relative;
@@ -104,7 +104,7 @@ Grid Image inserting*/
   font-size: 70px;
   
   }
-  /* Grid Image */
+ 
 .g1{
   flex: 50%;
   background-color: white;
@@ -122,7 +122,7 @@ Grid Image inserting*/
   flex-direction: column;
   background-color: white;
 }
-/* Scroll image */
+
 .scroll{
   background-color: rgb(255, 255, 255);
   width: 100%;
@@ -146,7 +146,6 @@ div.scroll img {
   height: 97%;
   width: 100%;
 }
-/* Footer */
 .footer{
   display: flex;
   justify-content: center;
@@ -164,9 +163,9 @@ div.scroll img {
 }
 .text{
   position: absolute;
-  bottom: -750px;
-  left: 16px;
+  bottom: -284px;
+  left: 100px;
   color: white;
   font-size: 50px;
-  transform: translate(300%, 90%);
+  transform: translate(272%, 90%);
 }
